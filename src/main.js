@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import App from './App'
 import MpvueRouterPatch from 'mpvue-router-patch'
+import './services/bookServices'
 
 Vue.use(MpvueRouterPatch)
 Vue.config.productionTip = false

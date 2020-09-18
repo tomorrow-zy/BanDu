@@ -18,7 +18,7 @@
             <div class="library-content-head">
               <div class="allbooks">
                 <img src="/static/index/u66.png" class="bookpic">
-                <div class="allbooks-text">全部书籍</div>
+                <div class="allbooks-text" @click="onAllBookClick">全部书籍</div>
               </div>
               <div class="bookshelf">
                 <img src="/static/index/u92.png" class="shelfpic">
@@ -105,6 +105,9 @@ export default {
     },
     onMessageClick () {
       this.$router.push('/pages/message/main')
+    },
+    onAllBookClick () {
+      this.$router.push('/pages/allbooks/main')
     }
   }
 }
@@ -277,7 +280,7 @@ export default {
   position: absolute;
   top: 545px;
   display: flex;
-  z-index: 1;
+  z-index: 0.8;
 }
 .first{
   margin-right: 62px;

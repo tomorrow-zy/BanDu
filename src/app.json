@@ -1,6 +1,7 @@
 {
   "pages": [
-    "pages/index/main",
+    "pages/index/main",    
+    "pages/allbooks/main",
     "pages/my/main",
     "pages/message/main"
   ],
@@ -11,6 +12,9 @@
     "navigationBarTextStyle": "black"
   },
   "usingComponents": {
-    "van-button": "vant-weapp/dist/button/index"
+    "van-button": "vant-weapp/dist/button/index",
+    "van-icon": "vant-weapp/dist/icon/index",
+    "van-dialog": "vant-weapp/dist/dialog/index",
+    "van-rate": "vant-weapp/dist/rate/index"
   }
 }

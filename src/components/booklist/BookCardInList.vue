@@ -14,7 +14,6 @@
     @error="onError"
     v-show="! isLoading && !error"
     />
-    <div class="bookcard-text">书名</div>
   </div>
 </template>
 
@@ -67,18 +66,9 @@ export default {
   justify-content: center;
 }
 .bookcard-picture{
-
   width: 84px;
   height: 120px;
   border: 0.5px solid black;
   border-radius: 5px;
-}
-.bookcard-text{
-  margin-top: 13px;
-  height: 10px;
-  line-height: 10px;
-  text-align: center;
-  font-size: 16px;
-  font-weight: 30;
 }
 </style>
