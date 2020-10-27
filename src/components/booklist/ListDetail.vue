@@ -40,7 +40,7 @@ export default {
 .list-content{
   display: flex;
   padding-bottom: 15px;
-  border-bottom: 2px solid #edf0f1;;
+  border-bottom: 2px solid #edf0f1;
 }
 .detail{
   padding-top: 2px;

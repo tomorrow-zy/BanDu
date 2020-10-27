@@ -22,7 +22,7 @@
               </div>
               <div class="bookshelf">
                 <img src="/static/index/u92.png" class="shelfpic">
-                <div class="bookshelf-text">我的书架</div>
+                <div class="bookshelf-text" @click="onBookShelfClick">我的书架</div>
               </div>
             </div>
             <div class="library-content-book">
@@ -108,6 +108,9 @@ export default {
     },
     onAllBookClick () {
       this.$router.push('/pages/allbooks/main')
+    },
+    onBookShelfClick () {
+      this.$router.push('/pages/bookshelf/main')
     }
   }
 }
@@ -138,7 +141,7 @@ export default {
   margin: 0 123px 0 123px;
   justify-content: center;
   align-items: center;
-  font-size: 17px;
+  font-size: 15px;
 }
 .content {
   position:absolute;

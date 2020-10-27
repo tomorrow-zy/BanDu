@@ -1,6 +1,7 @@
 {
   "pages": [
     "pages/index/main",    
+    "pages/bookshelf/main",
     "pages/allbooks/main",
     "pages/my/main",
     "pages/message/main"
